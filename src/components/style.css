@@ -1,0 +1,109 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+}
+.navbar-container .links-container {
+  /* border: 1px red solid; */
+  min-width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-container .links-container a {
+  all: unset;
+  color: white;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+.main-btn {
+  all: unset;
+  background-color: #d94948;
+  border-radius: 100px;
+  padding: 14px 20px;
+  color: white;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+.hero-container {
+  /* border: 1px red solid; */
+  min-height: 100vh;
+}
+.hero-container .desc {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  min-height: 100vh;
+}
+.hero-container h1 {
+  font-size: 3.5rem;
+}
+.hero-container .arrow {
+  font-size: 2.5rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+.hero-container h5 {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.hero-container h5,
+.hero-container h1 {
+  margin: 0;
+}
+.about-us-container {
+  background-color: #f9f8f8;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+}
+.about-us-container .intro h5 {
+  font-size: 1.15rem;
+  margin-bottom: 0;
+}
+.about-us-container .intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-us-container .intro h1 {
+  width: 60%;
+}
+.about-us-container p {
+  text-align: center;
+  /* border: 1px black solid; */
+  width: 50%;
+  color: rgb(103, 103, 103);
+  line-height: 30px;
+  font-size: 0.9rem;
+}
+.services-container {
+  background: transparent;
+  min-height: 100vh;
+  display: flex;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 250px;
+  padding: 50px;
+}
+.services div {
+  border: none;
+}
+.services div:not(:last-child) {
+  border-bottom: 2px white solid;
+}
+.services-container .desc,
+.services {
+  width: 35%;
+}
